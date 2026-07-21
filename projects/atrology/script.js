@@ -12,6 +12,7 @@ const zodiacSigns = [
   "Scorpio",
   "Sagittarius"
 ];
+
 // Based on Date, size 31
 const compliments = [
   "The stars say your energy attracts success.",
