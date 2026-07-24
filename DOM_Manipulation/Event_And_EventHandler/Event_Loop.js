@@ -129,9 +129,8 @@ Priority:
 
 console.log("Start the Operation");
 
-let fetchedData = fetch("https://api.github.com/users").then(()=>{
+fetch("https://api.github.com/users").then(()=>{
   console.log("GitHub user info");
 })
 
 console.log("end of operation");
-console.log(fetchedData);
